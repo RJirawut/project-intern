@@ -1,0 +1,30 @@
+<div class="skill">
+  <div class="skill_head">
+    <h1>SKILL</h1>
+  </div>
+  <div class="skill_container">
+    <div class="skill_conteent" fxLayout="row" fxLayout.lt-lg="column">
+      <div fxLayout="column" fxLayoutAlign="center">
+        <div fxLayout="row" class="skill_container_content" *ngFor="let item of listSkill1">
+          <div class="container_content">
+            <img class="logo" src={{item.logo}} alt="">
+            <p><b>{{item.language}}</b></p>
+          </div>
+          <div class="container_percen">
+            <p>{{item.percen}}</p>
+          </div>
+        </div>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center">
+        <div fxLayout="row" class="skill_container_content" *ngFor="let item of listSkill2">
+          <div class="container_content">
+            <img class="logo" src={{item.logo}} alt="">
+            <p><b>{{item.language}}</b></p>
+          </div>
+          <div class="container_percen">
+            <p>{{item.percen}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

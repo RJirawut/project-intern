@@ -1,0 +1,12 @@
+<div class="leftmenu">
+  <ul [ngClass]="{'leftmenu-open' : sideButtonStatus}">
+    <li>
+      <img class="profile-menu" src="assets/images/profile-menu.jpg" alt="assets/images/profile-menu.jpg">
+      <a  class="menu" fxLayout="row" *ngFor="let item of listMenu" [routerLink]="[item.routerlink]"
+        routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <img class="logo" src="{{item.logo}}" alt="{{item.logo}}">
+        <h1>{{item.page}}</h1>
+      </a>
+    </li>
+  </ul>
+</div>

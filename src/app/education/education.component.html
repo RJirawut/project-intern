@@ -1,0 +1,15 @@
+<div class="education">
+  <div class="edu_head">
+    <h1>EDUCATION</h1>
+  </div>
+  <div fxLayout="row" fxLayout.lt-lg="column" class="edu_container">
+    <div class="edu_container_content" *ngFor="let item of listEducation">
+      <img class="logo" src="{{item.logo}}" alt="">
+      <div>
+        <p><b>{{item.year}}</b></p>
+        <p><b>{{item.level}}</b></p>
+        <p>{{item.institute}}</p>
+        <p>{{item.major}}</p>
+      </div>
+    </div>
+</div>

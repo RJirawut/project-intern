@@ -1,0 +1,86 @@
+.skill {
+  padding: 0.1px;
+}
+
+.skill_head {
+  float: left;
+  margin-left: -15px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+  background-color: rgb(16, 16, 116);
+}
+
+.skill_head h1 {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.skill_container {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: rgb(189, 187, 187);
+}
+
+.container_content {
+  background-color: white;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+}
+
+.skill_conteent{
+  align-items: center;
+  justify-content: center;
+}
+
+.skill_container_content{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.logo {
+  display: flex;
+  width: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container_percen {
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+
+.container_content p {
+  color: black;
+  text-align: center;
+}
+
+.container_percen p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}

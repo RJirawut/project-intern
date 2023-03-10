@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  background-color: white;
+  background-image: url("src/assets/images/profile-image.jpg");
+  background-repeat: no-repeat;
+}
+
+.profile-image {
+  width: 100%;
+  position: relative;
+}
+
+.home-content {
+  padding: 30px;
+  margin-top: 830px;
+  margin-left: 100px;
+  margin-bottom: 130px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(16, 16, 116);
+}
+
+.home-content p {
+  color: white;
+  font-size: 50px;
+}

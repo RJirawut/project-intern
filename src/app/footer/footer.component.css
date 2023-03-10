@@ -1,0 +1,14 @@
+.footer {
+  background-color: rgb(38, 38, 38);
+}
+
+.footer-menu {
+  justify-content: center;
+}
+
+.footer-menu a {
+  font-size: 20px;
+  margin: 50px;
+  color: white;
+  text-decoration: none;
+}

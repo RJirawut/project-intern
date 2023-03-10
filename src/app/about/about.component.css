@@ -1,0 +1,41 @@
+.about {
+  left: 0;
+  right: 0;
+  justify-content: center;
+  padding: 0.1px;
+}
+
+.about_head {
+  float: left;
+  margin-left: -20px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+  background-color: rgb(16, 16, 116);
+}
+
+.about_head h1 {
+  margin-left: 30px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.about_container {
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: rgb(189, 187, 187);
+}
+
+.about_container p {
+  font-size: 20px;
+  line-height: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}

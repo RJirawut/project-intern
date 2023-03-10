@@ -1,0 +1,13 @@
+<div class="contact">
+  <div class="contact_head">
+    <h1>CONTACT</h1>
+  </div>
+  <div class="contact_container">
+    <div fxLayout="row" fxLayout.lt-lg="column">
+      <div class="contact_container_content" *ngFor="let item of listContact">
+        <img class="logo" src={{item.logo}} alt="">
+        <p><b>{{item.channel}} : </b>{{item.contact}}</p>
+      </div>
+    </div>
+  </div>
+</div>

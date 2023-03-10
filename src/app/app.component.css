@@ -1,0 +1,34 @@
+app-header {
+  margin: 0px;
+  width: 100%;
+  position: fixed;
+}
+
+app-leftmenu {
+  top: 73px;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: black;
+  width: 250px;
+}
+.leftmenu-open {
+  width: 60px;
+}
+
+app-footer {
+  margin: 0px;
+  width: 100%;
+  position: absolute;
+}
+
+.display-area {
+  margin-left: 250px;
+}
+
+.display-area-full {
+  margin-left: 0;
+}
+
+
+
